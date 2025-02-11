@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+* {
+    font-style: serif;
+}
+
+.first {
+    color: #e6155a;
+    text-align: center;
+    font-size: 40px;
+}
+.second {
+    color:#c42e60;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.third {
+    color:#c42e60;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically (if needed) */
+    height: 500px; /* Set height */
+    width: 100%; /* Take full width */
+}
+
+.img img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Keeps aspect ratio */
+}
+
+.button1 {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically (if needed) */
+}
+
+.button1 a {
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 8px; 
+}
+
+
+
+
+
+
