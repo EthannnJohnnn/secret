@@ -68,3 +68,7 @@ p {
         width: 90%;
     }
 }
+
+audio {
+    display: none;
+}
